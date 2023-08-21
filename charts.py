@@ -90,6 +90,7 @@ os.system("cls")
 
 # Create a Flask app instance and set a secret key to handle sessions
 charts = Flask(__name__)
+charts.debug = False
 charts.secret_key = 'enzo'
 
 # Define route to render index.html template
