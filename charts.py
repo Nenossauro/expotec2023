@@ -48,7 +48,7 @@ class user_obj:
         }
 
 # Function to retrieve user information based on specified field
-def get_your_info(info_want,session):
+"""def get_your_info(info_want,session):
     # Search the 'users' collection in the database for a user with the specified session (username)
     personal_info = col_users.find({'user':session})
     # Iterate over the search results (usually just one user document)
@@ -72,7 +72,7 @@ def get_your_info(info_want,session):
         case "hair":
             return aux_hair
         case "shoe":
-            return aux_shoe
+            return aux_shoe"""
 # Clear console screen for better visualisation
 os.system("cls")
 
