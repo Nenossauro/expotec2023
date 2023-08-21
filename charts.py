@@ -74,7 +74,7 @@ def get_your_info(info_want,session):
         case "shoe":
             return aux_shoe"""
     if info_want == "name":
-    return aux_name
+        return aux_name
     elif info_want == "country":
         return aux_country
     elif info_want == "state":
